@@ -36,7 +36,7 @@ function renderMaze(pathData, n, m) {
         const cell = document.createElement('div');
         cell.classList.add('cell');
         
-        if (pathData[i] === 1) {
+        if (pathData[i] >= 1) { 
             cell.classList.add('path');
         } else {
             cell.classList.add('empty');
