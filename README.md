@@ -1,10 +1,10 @@
 # StimaMazeGen
 
 ## Dependancies
-Make: To execute the build rules defined in the Makefile.
-Clang & LLVM: The compiler toolchain capable of targeting WebAssembly (wasm32).
-LLD (LLVM Linker): Required by Clang to link WebAssembly binaries (wasm-ld).
-Python 3: Used to spin up a quick local HTTP server for testing.
+- Make: To execute the build rules defined in the Makefile.
+- Clang & LLVM: The compiler toolchain capable of targeting WebAssembly (wasm32).
+- LLD (LLVM Linker): Required by Clang to link WebAssembly binaries (wasm-ld).
+- Python 3: Used to spin up a quick local HTTP server for testing.
 
 ## Installing the dependancies
 ```bash
